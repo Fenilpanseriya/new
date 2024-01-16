@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+/* main{
+    width: 100%;
+    justify-content: center;
+} */
+.header{
+    background-color: blueviolet;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 39px;
+    line-height: 0;
+
+}
+.headerContent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 71.44%;
+    margin-left: 14.18%;
+    margin-right: 14.38%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+   
+    
+}
+/* .ezihirelogo{
+   
+} */
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+
+    
+    
+}
+.navUl{
+    position: relative;
+    top:50%;
+    bottom: 50%;
+    
+}
+
+li{
+    letter-spacing: 0.32px;
+    font-size: 16px;
+    padding: 1em;
+}
+.headerNavbar{
+    padding-bottom: 1em;
+    justify-content: space-evenly
+    /* flex-wrap: wrap; */
+    
+}
+
+.slider{
+    position: relative;
+    width: 100%;
+}
+.imageContainer{
+    width: 100%;
+}
+
+.previous{
+    position: absolute;
+    top:50%;
+    left: 14.18%;
+
+}
+.next{
+    position: absolute;
+    top:50%;
+    right: 14.38%;
+
+}
+
+.title{
+    align-items: center;
+}
+
+.title h1{
+    margin-top: 2.5em;
+    /* margin-left: 30.68%;
+    margin-right: 30.68%; */
+    line-height: 48px;
+    text-align: center;
+    
+}
+.underline{
+    width:3.125%;
+    border: 1px solid #963184;
+    margin: auto;
+}
+.datetime{
+    margin-left: 14.18%;
+    
+    margin-top: 2.5em;
+    font-size: 18px;
+    line-height: 29px;
+}
+.textContainer{
+    width: 71.44%;
+    font-size: 1rem;
+    margin-left: 14.18%;
+    margin-right: 14.38%;
+    margin-top: 60px;
+}
+.textContainer p{
+    padding:13px 0;
+
+}
+.p1{
+    padding-top:0
+}
+.p2{
+    padding-bottom: 0;
+}
