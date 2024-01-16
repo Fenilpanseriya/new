@@ -101,7 +101,7 @@ li{
     margin: auto;
 }
 .datetime{
-    margin-left: 14.18%;
+    margin-left: 14.1875%;
     
     margin-top: 2.5em;
     font-size: 18px;
@@ -110,17 +110,51 @@ li{
 .textContainer{
     width: 71.44%;
     font-size: 1rem;
-    margin-left: 14.18%;
-    margin-right: 14.38%;
+    margin-left: 14.1875%;
+    margin-right: 14.1875%;
     margin-top: 60px;
 }
 .textContainer p{
     padding:13px 0;
-
+    color: #676A6C;
 }
 .p1{
-    padding-top:0
+    padding-top:0;
+    
 }
 .p2{
     padding-bottom: 0;
+    
+}
+.box{
+    width: 72.5625%;
+    margin-left: 14.1875%;
+    margin-right: 14.1875%
+    
+}
+.textBold{
+    color: black;
+}
+.textGrey{
+    color: #676A6C;
+}
+.boxes{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 -10px;
+   
+}
+
+.innerBox{
+   max-width: min-content;
+   padding: 0 10px;
+   
+}
+.b1{
+    margin-left: 0;
+}
+.b2{
+    margin-right: 0;
 }
