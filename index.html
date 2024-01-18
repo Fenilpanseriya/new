@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet">
-</head>
-<body>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  </head>
+  <body>
     <main>
-        <div class="header">
-            <div class="headerContent">
-                <div class="ezihirelogo">
-                    <img src="./images/EZIhire.png" alt="EZIHire logo"/>
-                </div>
-                <div class="headerNavbar">
-                    <ul class="navUl">
-                        <li class="navItems">
-                            Why us
-                        </li>
-                        <li class="navItems">
-                            Technologies
-                        </li>
-                        <li class="navItems">
-                            Business Model
-                        </li>
-                        <li class="navItems">
-                            Process
-                        </li>
-                        <li class="navItems">
-                            Insights
-                        </li>
-                        <li class="navItems">
-                            FAQs
-                        </li>
-                        <li class="navItems">
-                            Insights
-                        </li>
-                        <li class="navItems">
-                            FAQs
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      <div class="header">
+        <div id="headerContent">
+          <div class="ezihirelogo">
+            <img src="./images/EZIhire.png" alt="EZIHire logo" />
+          </div>
+          <div id="headerNavbar">
+            <img id="img1"src="./images/menu.png" style="height: 30px; width: 30px;" onclick="ham()"/>
+            <ul id="navUl">
+              <li class="navItems">Why us</li>
+              <li class="navItems">Technologies</li>
+              <li class="navItems">Business Model</li>
+              <li class="navItems">Process</li>
+              <li class="navItems">Insights</li>
+              <li class="navItems">FAQs</li>
+              <li class="navItems">Insights</li>
+              <li class="navItems">FAQs</li>
+            </ul>
+          </div>
+          <div id="hamNavbar">
+            <img id="img" src="./images/menu.png" style="height: 30px; width: 30px;" onclick="noham()"/>
+            <ul id="hamNav">
+                <li class="navItem">Why us</li>
+                <li class="navItem">Technologies</li>
+                <li class="navItem">Business Model</li>
+                <li class="navItem">Process</li>
+                <li class="navItem">Insights</li>
+                <li class="navItem">FAQs</li>
+                <li class="navItem">Insights</li>
+                <li class="navItem">FAQs</li>
+              </ul>
+          </div>
         </div>
-        <div class="slider">
-            <img class="imageContainer" src="./images/Banner.png" alt="banner"/>
-            <!-- <div class="headerContent">]
+      </div>
+      <div class="slider">
+        <div class="i1">
+          <img class="imageContainer" src="./images/Banner.png" alt="banner" />
+        </div>
+        <div class="i1">
+          <img class="imageContainer" src="./images/Banner.png" alt="banner1" />
+        </div>
+        <!-- <div class="headerContent">]
                 <div class="arrows">
                     
                         <img class="previous" src="./images/arrow_ic.png"/>
@@ -55,176 +60,239 @@
                      
 
             </div> -->
-            
-        </div>
+      </div>
 
-        
-        <div class="title">
-            <h1>
-                Hire Dedicated Web Designer
-            </h1>
-            
-        </div>   
-        <div class="underline">
-
-        </div>
-        <div class="datetime">
-            <p>19 Apr, 2021 - 09:00 AM</p>
-        </div>
-        <div class="textContainer">
-            <p class="p1" ><strong style="color: black;">Meta Description :</strong> Looking for supertalented resources? Go-getters with smart attitude? Hire with the help of EZihire and work like never before!</p>
-            <p><strong style="color: black;">Box description :</strong>Hire developers with prolific knowledge and enthusiasm with the help of smart tool eZihire. Read more to know more.</p>
-            <p >
-                If you're looking for experienced web designers to help you revitalise your company's online presence, eZihire is the place to go. Our team is well versed with website design and is able to provide a wide range of services. Experienced web designers are fully prepared to focus on your business's needs in a detailed and beneficial manner. 
-
+      <div class="title">
+        <h1>Hire Dedicated Web Designer</h1>
+      </div>
+      <div class="underline"></div>
+      <div class="datetime">
+        <p>19 Apr, 2021 - 09:00 AM</p>
+      </div>
+      <div class="textContainer">
+        <p class="p1">
+          <strong style="color: black">Meta Description :</strong> Looking for
+          supertalented resources? Go-getters with smart attitude? Hire with the
+          help of EZihire and work like never before!
+        </p>
+        <p>
+          <strong style="color: black">Box description :</strong>Hire developers
+          with prolific knowledge and enthusiasm with the help of smart tool
+          eZihire. Read more to know more.
+        </p>
+        <p>
+          If you're looking for experienced web designers to help you revitalise
+          your company's online presence, eZihire is the place to go. Our team
+          is well versed with website design and is able to provide a wide range
+          of services. Experienced web designers are fully prepared to focus on
+          your business's needs in a detailed and beneficial manner.
+        </p>
+        <p>
+          eZihire provides models to hire web designers to create compelling
+          designs for business impact. Our dedicated website designers have
+          prolific knowledge in the field of website design and are committed to
+          delivering the best design solutions possible.
+        </p>
+        <p class="p2">
+          We assist companies, online e-commerce stores, small businesses, and
+          individuals from various verticals to enhance brand value and build a
+          lasting online presence with our Hire Dedicated Web Designers
+          Services. Our dedicated graphic and website designers have
+          demonstrated proficiency in HTML, XHTML and CSS, as well as other web
+          design resources and applications.
+        </p>
+      </div>
+      <div class="box">
+        <div class="boxes">
+          <div class="innerBox b1">
+            <img src="./images/Image_shape.png" />
+            <p class="textBold">
+              ‘The lesser devil you don’t know’: a qualitative study of smokers’
+              responses...
             </p>
-            <p >
-                eZihire provides models to hire web designers to create compelling designs for business impact. Our dedicated website designers have prolific knowledge in the field of website design and are committed to delivering the best design solutions possible. 
+            <p class="textGrey">
+              Communicating to smokers that e-cigarettes deliver lower levels of
+              harmful chemicals than combusted cigarettes is a challenging
+              issue...
             </p>
-            <p class="p2">
-                We assist companies, online e-commerce stores, small businesses, and individuals from various verticals to enhance brand value and build a lasting online presence with our Hire Dedicated Web Designers Services. Our dedicated graphic and website designers have demonstrated proficiency in HTML, XHTML and CSS, as well as other web design resources and applications.
+          </div>
+          <div class="innerBox">
+            <img src="./images/Mask Group 5.png" />
+            <p class="textBold">
+              ‘The lesser devil you don’t know’: a qualitative study of smokers’
+              responses...
             </p>
-        </div>
-        <div class="box">
-            <div class="boxes">
-                <div class="innerBox b1">
-                    <img src="./images/Image_shape.png"/>
-                    <p class="textBold">
-                        ‘The lesser devil you don’t know’: a qualitative study of smokers’ responses...
-    
-                    </p>
-                    <p class="textGrey">
-                        Communicating to smokers that e-cigarettes deliver lower levels of harmful chemicals than combusted cigarettes is a challenging issue...
-                    </p>
-    
-                </div>
-                <div class="innerBox">
-                    <img src="./images/Mask Group 5.png"/>
-                    <p class="textBold">
-                        ‘The lesser devil you don’t know’: a qualitative study of smokers’ responses...
-                    </p>
-                    <p class="textGrey">
-                        Communicating to smokers that e-cigarettes deliver lower levels of harmful chemicals than combusted cigarettes is a challenging issue...
-                    </p>
-    
-                </div>
-                <div class="innerBox ">
-                    <img src="./images/Mask Group -1.png"/>
-                    <p class="textBold">
-                        ‘The lesser devil you don’t know’: a qualitative study of smokers’ responses...
-                    </p>
-                    <p class="textGrey">
-                        Communicating to smokers that e-cigarettes deliver lower levels of harmful chemicals than combusted cigarettes is a challenging issue...
-                    </p>
-    
-                </div>
-                
-
-            </div>
-            
-        </div>
-        <div class="textContainer">
-            <p class="p1" ><strong style="color: black;">Meta Description :</strong> Looking for supertalented resources? Go-getters with smart attitude? Hire with the help of EZihire and work like never before!</p>
-            <p><strong style="color: black;">Box description :</strong>Hire developers with prolific knowledge and enthusiasm with the help of smart tool eZihire. Read more to know more.</p>
-            <p >
-                If you're looking for experienced web designers to help you revitalise your company's online presence, eZihire is the place to go. Our team is well versed with website design and is able to provide a wide range of services. Experienced web designers are fully prepared to focus on your business's needs in a detailed and beneficial manner. 
-
+            <p class="textGrey">
+              Communicating to smokers that e-cigarettes deliver lower levels of
+              harmful chemicals than combusted cigarettes is a challenging
+              issue...
             </p>
-            <p >
-                eZihire provides models to hire web designers to create compelling designs for business impact. Our dedicated website designers have prolific knowledge in the field of website design and are committed to delivering the best design solutions possible. 
+          </div>
+          <div class="innerBox">
+            <img src="./images/Mask Group -1.png" />
+            <p class="textBold">
+              ‘The lesser devil you don’t know’: a qualitative study of smokers’
+              responses...
             </p>
-            <p class="p2">
-                We assist companies, online e-commerce stores, small businesses, and individuals from various verticals to enhance brand value and build a lasting online presence with our Hire Dedicated Web Designers Services. Our dedicated graphic and website designers have demonstrated proficiency in HTML, XHTML and CSS, as well as other web design resources and applications.
+            <p class="textGrey">
+              Communicating to smokers that e-cigarettes deliver lower levels of
+              harmful chemicals than combusted cigarettes is a challenging
+              issue...
             </p>
+          </div>
         </div>
-        <div class="bottomCard">
-            <div class="card">
-                <img src="./images/admission-thumb-1.png"/>
-                <h2>
-                    Education Loan Facility
-                </h2>
-                <p>
-                    Loan up to 4 lac without any security. For availing of this facility contact your nearest PNB Bank or Indian Overseas Bank
-                </p>
-                <div class="viewMore">
-                    View More 
-                    <img src="./images/Group 396.png"/>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./images/admission-thumb-2.png">
-                <h2>
-                    CU Advantages
-                </h2>
-                <p>
-                    Industry-Institute Interface Academicians – Transparent Learning and Objective Examination and Transparent Learning 
-                </p>
-                <div class="viewMore">
-                    View More 
-                    <img src="./images/Group 396.png"/>
-                </div>
-
-            </div>
-            <div class="card">
-               <img src="./images/admission-thumb-3.png">
-                <h2>
-                    Why Chandigarh?
-                </h2>
-                <p>
-                    History, Culture, Shopping, Music and more - the Chandigarh area has it all. Find out why Chandigarh is called “City Beautiful”.
-                </p>
-                <div class="viewMore">
-                    View More 
-                    <img src="./images/Group 396.png"/>
-                </div>
-                
-
-            </div>
+      </div>
+      <div class="textContainer">
+        <p class="p1">
+          <strong style="color: black">Meta Description :</strong> Looking for
+          supertalented resources? Go-getters with smart attitude? Hire with the
+          help of EZihire and work like never before!
+        </p>
+        <p>
+          <strong style="color: black">Box description :</strong>Hire developers
+          with prolific knowledge and enthusiasm with the help of smart tool
+          eZihire. Read more to know more.
+        </p>
+        <p>
+          If you're looking for experienced web designers to help you revitalise
+          your company's online presence, eZihire is the place to go. Our team
+          is well versed with website design and is able to provide a wide range
+          of services. Experienced web designers are fully prepared to focus on
+          your business's needs in a detailed and beneficial manner.
+        </p>
+        <p>
+          eZihire provides models to hire web designers to create compelling
+          designs for business impact. Our dedicated website designers have
+          prolific knowledge in the field of website design and are committed to
+          delivering the best design solutions possible.
+        </p>
+        <p class="p2">
+          We assist companies, online e-commerce stores, small businesses, and
+          individuals from various verticals to enhance brand value and build a
+          lasting online presence with our Hire Dedicated Web Designers
+          Services. Our dedicated graphic and website designers have
+          demonstrated proficiency in HTML, XHTML and CSS, as well as other web
+          design resources and applications.
+        </p>
+      </div>
+      <div class="bottomCard">
+        <div class="card">
+          <img src="./images/admission-thumb-1.png" />
+          <h2>Education Loan Facility</h2>
+          <p>
+            Loan up to 4 lac without any security. For availing of this facility
+            contact your nearest PNB Bank or Indian Overseas Bank
+          </p>
+          <div class="viewMore">
+            View More
+            <img src="./images/Group 396.png" />
+          </div>
         </div>
-        <div class="header footer">
-            <div class="headerContent">
-                <div class="headerNavbar">
-                    <ul class="navUl">
-                        <li class="navItems">
-                            Why us
-                        </li>
-                        <li class="navItems">
-                            Technologies
-                        </li>
-                        <li class="navItems">
-                            Business Model
-                        </li>
-                        <li class="navItems">
-                            Process
-                        </li>
-                        <li class="navItems">
-                            Insights
-                        </li>
-                        <li class="navItems">
-                            FAQs
-                        </li>
-                    </ul>
-                </div>
-                <div class="footerLogo">
-                    <img src="./images/youtube.png"/>
-                    <img src="./images/insta.png"/>
-                    <img src="./images/fb.png"/>
-                    <img src="./images/dribbble.png"/>
-                    <img src="./images/behance.png"/>
-                </div>
-                
-            </div>
-            <div class="footerLine">
-
-            </div>
-            
-            <div class="copy-right">
-                <h3>Copyright © 2021, EZIHIRE. ALL RIGHTS RESERVED</h3>
-            </div>
-            
+        <div class="card">
+          <img src="./images/admission-thumb-2.png" />
+          <h2>CU Advantages</h2>
+          <p>
+            Industry-Institute Interface Academicians – Transparent Learning and
+            Objective Examination and Transparent Learning
+          </p>
+          <div class="viewMore">
+            View More
+            <img src="./images/Group 396.png" />
+          </div>
         </div>
-       
+        <div class="card">
+          <img src="./images/admission-thumb-3.png" />
+          <h2>Why Chandigarh?</h2>
+          <p>
+            History, Culture, Shopping, Music and more - the Chandigarh area has
+            it all. Find out why Chandigarh is called “City Beautiful”.
+          </p>
+          <div class="viewMore">
+            View More
+            <img src="./images/Group 396.png" />
+          </div>
+        </div>
+      </div>
+      <div class="header footer">
+        <div class="footerContent">
+          <div class="footerNavbar">
+            <ul class="navUlFooter">
+              <li class="navItems">Why us</li>
+              <li class="navItems">Technologies</li>
+              <li class="navItems">Business Model</li>
+              <li class="navItems">Process</li>
+              <li class="navItems">Insights</li>
+              <li class="navItems">FAQs</li>
+            </ul>
+          </div>
+          <div class="footerLogo">
+            <img src="./images/youtube.png" />
+            <img src="./images/insta.png" />
+            <img src="./images/fb.png" />
+            <img src="./images/dribbble.png" />
+            <img src="./images/behance.png" />
+          </div>
+        </div>
+        <div class="footerLine"></div>
 
+        <div class="copy-right">
+          <h3>Copyright © 2021, EZIHIRE. ALL RIGHTS RESERVED</h3>
+        </div>
+      </div>
     </main>
-</body>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        // alert("helo");
+        $(".slider").slick({
+          dots: true,
+          arrows: true,
+          infinite: true,
+          speed: 500,
+          fade: true,
+          cssEase: "linear",
+        });
+        var left_val = $(".headerContent").offset().left;
+
+        $(".slick-prev").css("left", left_val + "px");
+        $(".slick-next").css("right", left_val + "px");
+      });
+
+      $(window).resize(function() {
+        var left_val = $(".headerContent").offset().left;
+
+        $(".slick-prev").css("left", left_val + "px");
+        $(".slick-next").css("right", left_val + "px");
+        
+      });
+    </script>
+    <script>
+        const ham=()=>{
+            let content=document.getElementById("hamNavbar")
+            content.style.display="block";
+            let img=document.getElementById("img1");
+            img.style.display="none"
+            let newdiv=document.getElementById("headerContent");
+            newdiv.style.display="block";
+            
+            //document.getElementById("headerNavbar").innerHTML=content;
+        }
+        const noham=()=>{
+            let img=document.getElementById("img1");
+            img.style.display="block"
+            let curr=document.getElementById("hamNavbar");
+            curr.style.display="none";
+            //let content=document.getElementById("headerNavbar")
+            //document.getElementById("headerNavbar").innerHTML=content;
+        }
+    </script>
+  </body>
 </html>
